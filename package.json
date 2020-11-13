@@ -1,0 +1,25 @@
+{
+    "name": "crayon-lang",
+    "displayName": "Crayon Lang",
+    "description": "Crayon programming language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "crayon",
+            "aliases": ["Crayon", "crayon"],
+            "extensions": [".cry"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "crayon",
+            "scopeName": "source.crayon",
+            "path": "./syntaxes/crayon.tmLanguage.json"
+        }]
+    }
+}
