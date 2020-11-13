@@ -10,6 +10,12 @@
 		},
 		{
 			"include": "#singlestrings"
+		},
+		{
+			"include": "#linecomment"
+		},
+		{
+			"include": "#blockcomment"
 		}
 	],
 	"repository": {
@@ -71,6 +77,36 @@
 				{
 					"name": "constant.character.escape.crayon",
 					"match": "\\\\."
+				}
+			]
+		},
+		"linecomment": {
+			"name": "comment.block.crayon",
+			"begin": "//",
+			"end": "\\n",
+			"patterns": [
+				{
+					"name": "markup.bold.comment.todo.crayon",
+					"match": "TODO"
+				},
+				{
+					"name": "markup.bold.comment.hack.crayon",
+					"match": "HACK"
+				}
+			]
+		},
+		"blockcomment": {
+			"name": "comment.block.crayon",
+			"begin": "/\\*",
+			"end": "\\*/",
+			"patterns": [
+				{
+					"name": "markup.bold.comment.todo.crayon",
+					"match": "TODO"
+				},
+				{
+					"name": "markup.bold.comment.hack.crayon",
+					"match": "HACK"
 				}
 			]
 		}
