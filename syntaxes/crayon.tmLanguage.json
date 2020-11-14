@@ -36,6 +36,9 @@
 				"name": "constant.language.null.crayon",
 				"match": "\\b(null)\\b"
 			},{
+				"name": "constant.language.boolean.crayon",
+				"match": "\\b(true|false)\\b"
+			},{
 				"name": "variable.language.self.crayon",
 				"match": "\\b(this|base)\\b"
 			},{
