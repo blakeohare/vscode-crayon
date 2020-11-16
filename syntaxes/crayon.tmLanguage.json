@@ -46,7 +46,7 @@
 				"match": "\\b(class)\\b"
 			},{
 				"name": "storage.type.member.crayon",
-				"match": "\\b(function|field|constructor)\\b"
+				"match": "\\b(function|field|constructor|enum|const)\\b"
 			},{
 				"name": "storage.modifier.crayon",
 				"match": "\\b(static)\\b"
