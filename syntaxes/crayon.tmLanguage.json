@@ -22,7 +22,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.crayon",
-				"match": "\\b(if|else|while|for|return|switch|case|default|break|continue|throw|new|try|catch|finally)\\b"
+				"match": "\\b(if|else|while|for|return|switch|case|default|break|continue|throw|new|try|catch|finally|is)\\b"
 			},{
 				"name": "constant.numeric.decimal.crayon",
 				"match": "\\b([0-9]+)\\b"
